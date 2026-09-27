@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Raim Edu Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Raim <span>Edu Hub</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">WELCOME TO RAIM EDU HUB</p>
+
+            <h1>
+                Learn Today.<br>
+                <span>Grow Tomorrow.</span>
+            </h1>
+
+            <p>
+                Online learning platform for students who want
+                to improve their English, Business and Management skills.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#courses" class="btn">Explore Courses</a>
+                <a href="#contact" class="btn secondary">Contact Us</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <div class="section-title">
+            <p>WHO WE ARE</p>
+            <h2>About Raim Edu Hub</h2>
+        </div>
+
+        <div class="about-content">
+
+            <div>
+                <h3>Education that builds confidence.</h3>
+
+                <p>
+                    Raim Edu Hub provides practical and engaging
+                    online education for students and learners.
+                    Our goal is to make learning simple,
+                    useful and accessible.
+                </p>
+
+                <p>
+                    We focus on Spoken English, Business,
+                    Management and HR-related subjects.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>Why Choose Us?</h3>
+
+                <ul>
+                    <li>✓ Online Classes</li>
+                    <li>✓ Practical Learning</li>
+                    <li>✓ Student Friendly</li>
+                    <li>✓ Affordable Fees</li>
+                    <li>✓ Personal Guidance</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Courses Section -->
+    <section id="courses" class="section courses-section">
+
+        <div class="section-title">
+            <p>WHAT WE OFFER</p>
+            <h2>Our Courses</h2>
+        </div>
+
+        <div class="course-container">
+
+            <div class="course-card">
+                <div class="course-icon">🗣️</div>
+
+                <h3>Spoken English</h3>
+
+                <p>
+                    Improve your speaking, vocabulary,
+                    grammar and confidence.
+                </p>
+
+                <button onclick="courseMessage('Spoken English')">
+                    Learn More
+                </button>
+            </div>
+
+
+            <div class="course-card">
+                <div class="course-icon">📊</div>
+
+                <h3>BBA HR</h3>
+
+                <p>
+                    Learn Human Resource Management
+                    with practical examples.
+                </p>
+
+                <button onclick="courseMessage('BBA HR')">
+                    Learn More
+                </button>
+            </div>
+
+
+            <div class="course-card">
+                <div class="course-icon">🎓</div>
+
+                <h3>MBA HR</h3>
+
+                <p>
+                    Build strong HR knowledge for
+                    academic and professional growth.
+                </p>
+
+                <button onclick="courseMessage('MBA HR')">
+                    Learn More
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+
+        <div class="section-title">
+            <p>GET IN TOUCH</p>
+            <h2>Contact Us</h2>
+        </div>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                id="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+            ></textarea>
+
+            <button type="submit" class="btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>Raim Edu Hub</h3>
+
+        <p>
+            Learn • Grow • Succeed
+        </p>
+
+        <p class="copyright">
+            © 2026 Raim Edu Hub. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
